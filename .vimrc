@@ -16,10 +16,10 @@ set visualbell
 set t_vb=
 set timeoutlen=1000 ttimeoutlen=0
 syntax on
-colorscheme molokai
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
 let NERDTreeQuitOnOpen=1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\'
