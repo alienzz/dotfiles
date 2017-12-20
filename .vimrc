@@ -9,6 +9,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/ctrlp.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tomlion/vim-solidity'
+Plugin 'tpope/vim-commentary'
 call vundle#end()            
 filetype plugin indent on 
 set number relativenumber  
@@ -19,7 +22,11 @@ syntax on
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
-let NERDTreeQuitOnOpen=1
+let NERDTreeQuitOnOpen=0
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\'
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+:set backupcopy=yes
