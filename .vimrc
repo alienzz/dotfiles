@@ -1,3 +1,4 @@
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible             
 filetype off                 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -29,4 +30,6 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\'
 set expandtab
 set shiftwidth=2
 set softtabstop=2
-:set backupcopy=yes
+set backupcopy=yes
+let g:airline_theme="simple"
+set dir=$TEMP
