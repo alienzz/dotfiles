@@ -31,5 +31,6 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set backupcopy=yes
-let g:airline_theme="simple"
-set dir=$TEMP
+let g:airline_theme="bubblegum"
+let g:space_vim_dark_background = 233
+color space-vim-dark
