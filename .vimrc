@@ -34,3 +34,4 @@ set backupcopy=yes
 let g:airline_theme="bubblegum"
 let g:space_vim_dark_background = 233
 color space-vim-dark
+set noshowmode
