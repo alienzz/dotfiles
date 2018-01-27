@@ -3,7 +3,7 @@ set nocompatible
 filetype off                 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'vim-airline/vim-airline'
+Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
@@ -12,6 +12,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tomlion/vim-solidity'
+Plugin 'dikiaap/minimalist'
 Plugin 'tpope/vim-commentary'
 call vundle#end()            
 filetype plugin indent on 
@@ -31,7 +32,8 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set backupcopy=yes
-let g:airline_theme="bubblegum"
-let g:space_vim_dark_background = 233
-color space-vim-dark
 set noshowmode
+set laststatus=2
+set t_Co=256
+syntax on
+colorscheme minimalist
