@@ -37,3 +37,6 @@ set laststatus=2
 set t_Co=256
 syntax on
 colorscheme minimalist
+set hlsearch
+highlight Search ctermbg=DarkMagenta ctermfg=White cterm=NONE
+highlight CursorLineNr ctermfg=LightGreen
